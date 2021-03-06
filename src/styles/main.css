@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+  font-family: 'Open Sans', sans-serif; 
+}
+
+html, 
+body {
+  @apply h-screen;
+}
+
+body{
+  background: #000;
+}
+
+#__next{
+  @apply h-screen flex flex-col;
+}
+
+a, a:visited{
+  @apply p-3 inline-block text-center align-middle text-white uppercase;
+}
