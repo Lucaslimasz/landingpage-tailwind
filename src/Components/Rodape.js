@@ -9,6 +9,6 @@ export default function Rodape(){
         <input className='px-5 py-1 text-lg text-black rounded-2xl' placeholder='Digite seu e-mai'/>
         <button className='bg-white px-6 py-1.5 text-black ml-4 outline-none rounded-2xl'>Enviar</button>
       </div>
-    </div>
+    </div>  
   )
 }
